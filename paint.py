@@ -9,8 +9,8 @@ Exercises
 5. Add width parameter.
 """
 
+import turtle #Añadido
 from turtle import *
-
 from freegames import vector
 
 
@@ -38,7 +38,15 @@ ggVGy        forward(end.x - start.x)
 
 def circle(start, end):
     """Draw circle from start to end."""
-    pass  # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+    radius = abs(end - start)
+    turtle.circle(radius)
+
+    end_fill() #Circulo completado
 
 
 def rectangle(start, end):
