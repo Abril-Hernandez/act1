@@ -1,1 +1,1 @@
-# Se añadió la figura del rectangulo
+# Se añadió la figura del triangulo
