@@ -30,7 +30,7 @@ def square(start, end):
     begin_fill()
 
     for count in range(4):
-ggVGy        forward(end.x - start.x)
+        forward(end.x - start.x)
         left(90)
 
     end_fill()
