@@ -30,7 +30,7 @@ def square(start, end):
     begin_fill()
 
     for count in range(4):
-        forward(end.x - start.x)
+ggVGy        forward(end.x - start.x)
         left(90)
 
     end_fill()
@@ -79,6 +79,7 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
+onkey(lambda: color('purple'), 'P') # Nuevo color
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')
