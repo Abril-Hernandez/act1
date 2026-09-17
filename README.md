@@ -1,2 +1,1 @@
-Original de paint.py
-# Original de paint.py
+# Se añadió la figura del triangulo
