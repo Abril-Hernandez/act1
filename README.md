@@ -1,10 +1,10 @@
-# Original de paint.py
+# Código original de paint.py
 
-# Nuevo color añadido
+# Se añadió un nuevo color
 
-# Circulo terminado
+# Se añadió la figura del circulo
 
-# Fixed typo
+# Se corrigió un typo en la linea 33
 
 # Se añadió la figura del rectangulo
 
